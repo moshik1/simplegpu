@@ -8,7 +8,6 @@ enable_language(CUDA)
 
 set(CMAKE_CUDA_ARCHITECTURES 90)
 
-# Set V100 architecture
 set(CMAKE_CUDA_FLAGS "${CMAKE_CUDA_FLAGS} -arch=sm_90")
 
 
